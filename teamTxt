@@ -1,0 +1,56 @@
+var teamList = [
+{
+   id : 1,
+   fullName: “Mumbai Indians”,
+   key: “MI”,
+   championshipsWon: 3,
+   teamIcon: “IMAGE-URL”
+},
+{
+   id : 2,
+   fullName: “Kolkata Knight Riders”,
+   key: “KKR”,
+   championshipsWon: 1, 
+   teamIcon: “-”
+},
+{
+   id : 3,
+   fullName: “Royal Challengers Bangalore”,
+   key: “RCB”,
+   championshipsWon:  0, 
+   teamIcon: “”
+},
+{
+   id : 4,
+   fullName: “Pune Warriors”,
+   key: “PW”,
+   championshipsWon:  1, 
+   teamIcon: “-”
+},
+{
+   id : 5,
+   fullName: “Rajasthan Royals”,
+   key: “RR”,
+   championshipsWon:  2, 
+   teamIcon: “-”
+},
+{
+   id : 6,
+   fullName: “Chennai Super Kings”,
+   key: “CSK”,
+   championshipsWon:  3, 
+   teamIcon: “-”
+},
+{
+   id : 7,
+   fullName: “Delhi Daredevils”,
+   key: “DD”,
+   championshipsWon:  1, 
+   teamIcon: “-”
+},
+
+
+
+]
+
+

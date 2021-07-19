@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Cricket</title>
+    <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet" href="./headerFooter.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <a href="./homepage.html">
+        <img id="banner" src="./assets/IPL-Logo.webp" alt="">
+        <!-- <div > -->
+        
+    <!-- </div> -->
+    </a>
+    </header>
+
+    <main>
+    <article id="grid-wrapper">
+    <div class="btn-div">
+         <div>
+        <button id="btn-show-hide-team-form" class="btn-style"> ADD Team </button>
+        
+        <button id="btn-show-hide-player-form" class="btn-style"> ADD Player </button>
+        </div>
+
+
+        
+            <div class="form-div" id="team-div">
+        
+                <form id="team-form" >
+                    <h2>Team Form</h2>
+                    <label>
+                        <h3>New Team Name</h3>
+                        <input type="text" name="teamNname" id="team-name" placeholder="Enter New Team Name " />
+        
+                    </label>
+        
+                    <label>
+                        <h3>Team Key Name</h3>
+                        <input type="text" name="teamKeyName" id="team-key" placeholder="Enter Team Key Name " />
+                    </label>
+                    
+                    <label>
+                        <h3>Number of times Team Won</h3>
+                        <input type="text" name="champWon" id="team-won" placeholder="Enter Team Won Times " />
+                    </label>
+
+                    <label>
+                        <h3>Top Batsman Name</h3>
+                        <input type="text" name="top-batsman-name" id="top-batsman-name" placeholder="Enter Top Batsman " />
+                    </label>
+
+                    <label>
+                        <h3>Top Bowler Name</h3>
+                        <input type="text" name="top-bowler-name" id="top-bowler-name" placeholder="Enter Top Bowler " />
+                    </label>
+                    
+                    <label>
+                        <h3>Enter Url of Team Logo</h3>
+                        <input type="url" name="teamKeyUrl" id="team-url" placeholder="Enter Url of Team Logo " />
+                    </label>
+        
+                    <label>
+                        <input type="submit" class="btn-style" id="team-submit"  value="ADD" />
+                    </label>
+                    
+                </form>
+                </div>
+    
+                <div class="form-div" id="player-div">
+                
+                    <form id="player-form" >
+                        <h2>Player Form</h2>
+                        <label>
+                            <h3>Player Name</h3>
+                            <input type="text" name="PNname" id="player-team-name" placeholder="Enter New Player Name " />
+            
+                        </label>
+            
+                        <label id="player-team-key">
+                            <h3>Team Key Name</h3>
+                            <!-- <input type="text name="teamKeyName" id="team-key" placeholder="Enter Team Key Name " /> -->
+                            <select name="team-key-name" id="player-team-key">
+                                <!-- <option value="">--Please choose an option--</option> -->
+                               
+                            </select>
+                        </label>
+                        
+                        <label>
+                            <h3>Playing Fee (in Crore)</h3>
+                            <input type="text" name="playingFee" id="player-fee" placeholder=" fee price " />
+                        </label>
+                        
+                        <label>
+                            <h3>Description</h3>
+                            <input type="text" name="desc" id="player-type" placeholder="description " />
+                        </label>
+
+                        <label id="radio-input">
+                            <h3>Player Status</h3>
+                            <label>
+                                Playing
+                                <input type="radio" name="desc" id="player-type" class="player-type" value="true" />
+                            </label>
+                            <label>
+                                On-Bench
+                                <input type="radio" name="desc" id="player-type" class="player-type" value="false"/>
+                            </label>
+                            <!-- <input type="text" name="desc" id="player-type" placeholder="description " /> -->
+                        </label>
+    
+                        <label>
+                            <h3>Enter Url of Player Image</h3>
+                            <input type="url" name="playerPicUrl" id="player-pic-url" placeholder="Enter Url of player pic Url " />
+                        </label>
+                        
+                        <label>
+                            <input type="submit" class="btn-style" id="player-submit"  value="ADD" />
+                        </label>
+        
+                    </form>
+                    </div>
+
+                    <div class="card-container">
+                                              
+                    </div>
+
+
+
+        </article>
+        <article id="search-wrapper">
+        <div id="search-div">
+            <form id="search-form" >
+                <!-- <img id="search-icon" src='./assets/search-icon.svg' alt="Search Icon"  /> -->
+                <input type="text" placeholder="Enter Player Name" name="search-box" id="search-box" value=""
+                 />
+            </form>
+            <div id="search-result-div">
+    
+                <ol>
+                
+                </ol>
+            </div>
+            
+            </div>
+        </div>
+
+    </article>
+        
+        
+    </main>
+
+    <footer>
+        <div id="footer-div">
+            <img src="./assets/ipllogo.png" alt="Ipl-Logo">
+        </div>
+    </footer>
+
+
+
+</body>
+<script src="./homepage.js"></script>
+</html>

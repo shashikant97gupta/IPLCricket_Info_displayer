@@ -1,0 +1,258 @@
+var playersDetail = [
+ {
+   "id": 0,
+   "playerName": "Hardik Pandya",
+   "from": "MI",
+   "price": "6.50 Cr",
+   "isPlaying": true,
+   "description": "All-rounder"
+ },
+ {
+   "id": 1,
+   "playerName": "Virat Kohli",
+   "from": "RCB",
+   "price": "8.00 Cr",
+   "isPlaying": true,
+   "description": "Batsman”
+ },
+ {
+   "id": 2,
+   "playerName": "Yuvraj Singh",
+   "from": "MI",
+   "price": "1.00 Cr",
+   "isPlaying": false,
+   "description": "Batsman"
+ },
+ {
+   "id": 3,
+   "playerName": "Chris Morris",  
+   "from": "RR",
+   "price": "16.25 Cr",
+   "isPlaying": true,
+   "description": "All-rounder"
+ },
+ {
+   "id": 4,
+   "playerName": "Glenn Maxwell",
+   "from": "RCB",
+   "price": "14.25",
+   "isPlaying": true,
+   "description": "All-rounder"
+ },
+ {
+   "id": 5,
+   "playerName": "Rohit Sharma",
+   "from": "MI",
+   "price": "6.50 Cr",
+   "isPlaying": true,
+ },
+ {
+   "id": 6,
+   "playerName": "Ishan Kishan",
+   "from": "MI",
+   "price": "2.50 Cr",
+   "isPlaying": true,
+   "description": "BatsMan"
+ },
+ {
+   "id": 7 ,
+   "playerName": "Yogendra Singh",
+   "from": "RCB",
+   "price": "1.40 Cr",
+   "isPlaying": true,
+   "description": "Bowler"
+ },
+ {
+   "id": 8,
+   "playerName": "John Mathews",
+   "from": "KKR",
+   "price": "2.80 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 9,
+   "playerName": "Shiv Sharma",
+   "from": "RR",
+   "price": "2.79 Cr",
+   "isPlaying": true,
+   "description": "Bowler"
+ },
+ {
+   "id": 10,
+   "playerName": "Arun Patel",
+   "from": "PW",
+   "price": "1.89 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 11,
+   "playerName": "Amit Mishra",
+   "from": "CSK",
+   "price": "2.34 Cr",
+   "isPlaying": true,
+   "description": "Bowler"
+ },
+ {
+   "id": 12,
+   "playerName": "Rickey Ponting",
+   "from": "CSK",
+   "price": "2.00 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 13,
+   "playerName": "Rohit Patel",
+   "from": "MI",
+   "price": "2.56 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 14,
+   "playerName": "Saurav Tiwari",
+   "from": "KKR",
+   "price": "1.23 Cr",
+   "isPlaying": true,
+   "description": "BatsMan"
+ },
+ {
+   "id": 15,
+   "playerName": "Kapil Dev",
+   "from": "RR",
+   "price": "2.12 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 16,
+   "playerName": "Sarik Patel",
+   "from": "RCB",
+   "price": "1.23 Cr",
+   "isPlaying": true,
+   "description": "Bowler"
+ },
+ {
+   "id": 17,
+   "playerName": "Anil Kumar",
+   "from": "DD",
+   "price": "2.89 Cr",
+   "isPlaying": true,
+   "description": "Bowler"
+ },
+ {
+   "id": 18,
+   "playerName": "Dinesh Karthik",
+   "from": "KKR",
+   "price": "1.23 Cr",
+   "isPlaying": true,
+   "description": "Wicket-Keeper"
+ },
+ {
+   "id": 19,
+   "playerName": "Dinesh Chandimal",
+   "from": "KKR",
+   "price": "1.10 Cr",
+   "isPlaying": true,
+   "description": "BatsMan"
+ },
+ {
+   "id": 20,
+   "playerName": "Mooeen-ALi",
+   "from": "RCB",
+   "price": "1.78 Cr",
+   "isPlaying": true,
+   "description": "Bowler"
+ },
+ {
+   "id": 21,
+   "playerName": "Krunal Pandya",
+   "from": "MI",
+   "price": "0.87 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 22,
+   "playerName": "MS Dhoni",
+   "from": "CSK",
+   "price": "3.89 Cr",
+   "isPlaying": true,
+   "description": "Wicket-Keeper"
+ },
+ {
+   "id": 23,
+   "playerName": "Suresh Raina",
+   "from": "CSK",
+   "price": "1.23 Cr",
+   "isPlaying": true,
+   "description": "BatsMan"
+ },
+ {
+   "id": 24,
+   "playerName": "Varun Sharma",
+   "from": "DD",
+   "price": "1.28 Cr",
+   "isPlaying": true,
+   "description": "Bowler"
+ },
+ {
+   "id": 25,
+   "playerName": "Ravindra Jadeja",
+   "from": "PW",
+   "price": "2.58 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 26,
+   "playerName": "Ravichandran Ashwin",
+   "from": "PW",
+   "price": "1.34 Cr",
+   "isPlaying": true,
+   "description": "Bowler"
+ },
+ {
+   "id": 27,
+   "playerName": "Axar Patel",
+   "from": "PW",
+   "price": "3.12 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 28,
+   "playerName": "Gagan Narang",
+   "from": "CSK",
+   "price": "2.12 Cr",
+   "isPlaying": true,
+   "description": "Bowler"
+ },
+ {
+   "id": 29,
+   "playerName": "Andre Russel",
+   "from": "KKR",
+   "price": "1.28 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 30,
+   "playerName": "Suresh Kumar",
+   "from": "RCB",
+   "price": "1.23 Cr",
+   "isPlaying": true,
+   "description": "All-Rounder"
+ },
+ {
+   "id": 31,
+   "playerName": "AB Diviliers",
+   "from": "RCB",
+   "price": "1.34 Cr",
+   "isPlaying": true,
+   "description": "BatsMan"
+ }
+]
+
